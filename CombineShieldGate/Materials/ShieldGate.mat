@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShieldGate
+  m_Shader: {fileID: 4800000, guid: ee850ff6e6e6eac46817591bfa545b4f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DFG:
+        m_Texture: {fileID: 2800000, guid: 212980fe1a8ba984390d6d6792fe0a63, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShieldMask:
+        m_Texture: {fileID: 2800000, guid: 696596801f3d44e42bfedeb25f362b22, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShieldMask1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShieldWave:
+        m_Texture: {fileID: 2800000, guid: 57a13fd227b79314fa5c2ad823ff6ece, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShieldWave1:
+        m_Texture: {fileID: 2800000, guid: 3aef9b655250046488eecba34f1edfe4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShieldWave2:
+        m_Texture: {fileID: 2800000, guid: 0cbc7fbf479ef5e45b55ee356f90b2da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - BAKERY_META_ALPHA_ENABLE: 1
+    - _AlphaToMask: 0
+    - _BakeryMonoSH: 0
+    - _BlinkSpeed: 5
+    - _BlinkStrength: 0.5
+    - _BlueTiling: 1.47
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Gradient: 0.6
+    - _Gradient2: 0.59
+    - _GradientTiling: 4
+    - _GradientTiling2: 2
+    - _LightmappedSpecular: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NonLinearLightProbeSH: 0
+    - _OcclusionStrength: 1
+    - _Opacity: 0.453
+    - _Parallax: 0.02
+    - _PerlinGradientTiling: -0.3
+    - _PerlinStrength: -0.54
+    - _PerlinTiling: 1.7
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TouchSensitivity: 1.27
+    - _TouchStrength: 6.24
+    - _UVSec: 0
+    - _WaveSpeed: 2
+    - _WaveSpeed1: 1.5
+    - _WaveSpeed2: 0.53
+    - _WaveTiling: 5.27
+    - _WaveTiling1: 3.89
+    - _WaveTiling2: 4.66
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _BlueSpeed: {r: -0.05, g: 0.05, b: 0, a: 0}
+    - _Color: {r: 0, g: 1.5294118, b: 1.9764706, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GradientMapping: {r: 0.82, g: 1, b: 0, a: 0}
+    - _Max: {r: 0.17288181, g: 0.31569988, b: 0.3301887, a: 0}
+    - _PerlinSpeed: {r: -0.05, g: 0.05, b: 0, a: 0}
+    - _TouchColor: {r: 0.7372549, g: 2.964706, b: 2.9960785, a: 1}
+    - _WaveColor: {r: 0.17704919, g: 0.33049175, b: 0.36, a: 1}
+    - _WaveColor1: {r: 0.16402636, g: 0.34228522, b: 0.3584906, a: 1}
+    - _WaveColor2: {r: 0, g: 0.7924528, b: 0.7139214, a: 1}
